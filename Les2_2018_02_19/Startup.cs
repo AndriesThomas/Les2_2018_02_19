@@ -24,6 +24,8 @@ namespace Les2_2018_02_19
             {
                 app.UseDeveloperExceptionPage();
             }
+            app.UseDefaultFiles();
+            app.UseStaticFiles();
 
             app.Run(async (context) =>
             {
